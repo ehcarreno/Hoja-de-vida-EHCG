@@ -1,0 +1,171 @@
+# Hoja-de-vida-EHCG
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Hoja de Vida</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 2.0;
+            margin: 40px;
+            background-color: #999898;
+            color: #afe4e3;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+            color: rgb(114, 114, 114)909;
+            background-image: url('oficina.jpg'); 
+            background-size: cover;
+            background-position: center;
+            
+        }
+        .header-content {
+            padding: 40px; 
+        
+        } 
+        
+        .background-image {
+            opacity: 2; /* Ajusta la opacidad según sea necesario */
+            transition: opacity 1s ease; /* Agrega una transición suave de opacidad */
+
+        }
+
+        h1 {
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #0066cc;
+            cursor: pointer;
+            border-bottom: 1px solid rgb(0, 179, 255);            
+
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: rgb(7, 100, 158)fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sub-section {
+            margin-left: 0;
+            display: none; 
+        }
+
+        .sub-section p {
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #535353;
+        }
+        
+            img {
+            max-width: 20%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        h2:hover + .sub-section {
+            display: block;
+
+        }
+        
+        header:hover .background-image {
+            opacity: 1000;
+
+        }
+
+    </style>
+</head>
+    <body>
+
+        <header>
+            <div class="header-content">
+                <img src="foto.jpg" alt="Mi Foto">
+                <h1>ELVIZ HERNÁN CARREÑO GARCÍA</h1>
+                <h1>CC. 80.169.479</h1>
+                <p>Cra 68B 22A 71 Bogotá,D.C. (Colombia) | 3124310077 | <a href="mailto:elvizcarg@gmail.com">elvizcarg@gmail.com</a></p>
+            </div>
+            <div class=""background-image>&nbsp;</div>
+        </header>
+
+        <section class="section">
+            <h2>Perfil </h2>
+            <div class="sub-section">
+                <p>Técnico en Análisis y Diseño de Bases de Datos de la Fundación Universitaria Compensar, actualmente continuo con mis estudios en aras de mi título como Ingeniero de Sistemas. Me caracterizo por ser organizado y eficiente, lo que me permite tener una gran motivación al cumplimiento de objetivos, siempre dispuesto al trabajo en equipo, a entregar resultados con calidad y en los tiempos estipulados, poseo alta capacidad e interés por adquirir nuevos conocimientos, me adapto sin problemas a los nuevos retos y compromisos que se presenten, siempre en la constante búsqueda de soluciones eficientes que puedan satisfacer las necesidades actuales, con gran sentido de honestidad, responsabilidad y pertenencia.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Educación</h2>
+            <div class="sub-section">
+                <h3>Fundación Universitaria Compensar</h3>
+                <p>Técnico en análisis y diseño de bases de datos | Octubre 07 de 2021</p>
+            </div>
+           
+        </section>
+
+        <section class="section">
+            <h2>Experiencia Laboral</h2>
+            <div class="sub-section">
+                <h3>Técnico en sistemas</h3>
+                <p>Subred Integrada de Servicios de Salud E.S.E | Febrero 2023 - Actualmente</p>
+                <p>Diseñar y analizar Bases de Datos para las diferentes estrategías implementadas por la Secretaría de Salud de Bogotá, con el objeto de reducir la Morbilidad Materna Extrema, Mortalidad Materna y la Mortalidad Perintal en la capital.</p>
+            </div>
+         </section>
+
+        <section class="section">
+            <h2>Habilidades</h2>
+            <div class="sub-section">
+                <ul>
+                    <li>Facilidad de rabajo en equipo.</li>
+                    <li>Liderazgo.</li>
+                    <li>Creatividad</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Idiomas</h2>
+            <div class="sub-section">
+                <p>Ingles - A2</p>
+                <p>Frances - A1</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Referencias</h2>
+            <div class="sub-section">
+                <p>Catherine Rodríguez - Enfermera - 3134237980.</p>
+                <p>Edwin Montenegro - Ingeniero - 3003135242.</p>
+            </div>    
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Elviz Hernán Carreño García</p>
+        </footer>
+
+    </body>
+</html>
